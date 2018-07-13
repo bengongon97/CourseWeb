@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="omerkaramanli.sabanciuniv.edu.courseweb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.MainPageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MainPageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.CoursesActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CoursesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.ProfileActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ProfileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.DropCourseActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DropCourseActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.ScheduleActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ScheduleActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.DayActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DayActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.AdminMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AdminMain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.Pop"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.AdminMain" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.InstructorActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.InstructorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.AdminAddCourse"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AdminAddCourse" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.AdminEditGrades"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AdminEditGrades" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.InstructorEditGrade"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.InstructorEditGrade" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.AdminAddStudent"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.InstructorEditGrade" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="omerkaramanli.sabanciuniv.edu.courseweb.AdminAddInstructor"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.InstructorEditGrade" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="omerkaramanli.sabanciuniv.edu.courseweb.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

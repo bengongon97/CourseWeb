@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CourseWeb</string>
+    <string name="title_activity_admin_add_student">AdminAddStudent</string>
+</resources>
